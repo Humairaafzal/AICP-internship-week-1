@@ -1,0 +1,107 @@
+TASK 1
+
+
+import numpy as np
+
+# Create an array of all even integers from 30 to 70
+even_integers = np.arange(1, 21, 6)
+
+# Display the array
+print(even_integers)
+
+TASK 2
+
+
+import numpy as np
+
+# Generate an array of 15 random numbers from a standard normal distribution
+random_numbers = np.random.randn(77)
+
+# Display the array
+print(random_numbers)
+
+
+TASK 3
+
+
+import numpy as np
+
+# Define two vectors
+vector_a = np.array([5, 2, 3])
+vector_b = np.array([7, 22, 6])
+
+# Compute the cross-product
+cross_product = np.cross(vector_a, vector_b)
+
+# Display the result
+print(cross_product)
+
+
+TASK 4
+
+
+import numpy as np
+
+# Define a square matrix
+matrix = np.array([[2, 4], [65, 1]])
+
+# Compute the determinant of the matrix
+determinant = np.linalg.det(matrix)
+
+# Display the determinant
+print(determinant)
+
+
+
+TASK 5
+
+
+
+import numpy as np
+
+# Create a 3x3x3 array with random values
+random_array_3x3x3 = np.random.random((3, 3, 3))
+
+# Display the array
+print(random_array_3x3x3)
+
+
+
+TASK 6
+
+
+
+import numpy as np
+
+# Create a 5x5 array with random values
+random_array_5x5 = np.random.random((7, 7))
+
+# Find the minimum and maximum values
+min_value = random_array_5x5.min()
+max_value = random_array_5x5.max()
+
+# Display the array, minimum value, and maximum value
+print("5x5 Array with Random Values:\n", random_array_5x5)
+print("Minimum Value:", min_value)
+print("Maximum Value:", max_value)
+
+TASK 7
+
+import numpy as np
+
+# Define a sample array
+sample_array = np.array([[4, 5, 4, 4], [5, 6, 45, 8], [95, 550, 1, 2]])
+
+# Compute the mean along the second axis
+mean = np.mean(sample_array, axis=1)
+
+# Compute the standard deviation along the second axis
+std_dev = np.std(sample_array, axis=1)
+
+# Compute the variance along the second axis
+variance = np.var(sample_array, axis=1)
+
+# Display the results
+print("Mean:", mean)
+print("Standard Deviation:", std_dev)
+print("Variance:", variance)
